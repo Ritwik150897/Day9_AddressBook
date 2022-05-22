@@ -57,4 +57,17 @@ class Contact{
     public void setPin(int pin) {
         this.pin = pin;
     }
+
+    @Override
+    public String toString() {
+        return "contact{" +
+                "fName='" + fName + '\'' +
+                ", lName='" + lName + '\'' +
+                ", city='" + city + '\'' +
+                ", state='" + state + '\'' +
+                ", email='" + email + '\'' +
+                ", phoneNo=" + phoneNo +
+                ", pin=" + pin +
+                '}';
+    }
 }
